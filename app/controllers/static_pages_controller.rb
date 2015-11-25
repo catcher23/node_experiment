@@ -1,6 +1,7 @@
 class StaticPagesController < ApplicationController
   def root
-   @instagram = Instagram.user_recent_media("8liujianwei", {:count => 1})
-   render json: JSON.parse(@instagram)
+
+     @instagram = ::Instagram.user_recent_media(2290945337, {:count => 2})
+     render :json => @instagram
+     end
   end
-end
