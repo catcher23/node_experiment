@@ -1,9 +1,9 @@
 /*jslint node: true */
 'use strict';
 
-var express = require('express'),
+var newrelic = require('newrelic'),
+    express = require('express'),
     routes = require('./app/routes/index.js'),
-    newrelic = require('newrelic'),
     mongo = require('mongodb').MongoClient;
 
 var app = express();
