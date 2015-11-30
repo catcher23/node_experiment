@@ -5,7 +5,7 @@
    var addButton = document.querySelector('.btn-add');
    var deleteButton = document.querySelector('.btn-delete');
    var clickNbr = document.querySelector('#click-nbr');
-   var apiUrl = 'www.pixgrab.xyz/api/clicks';
+   var apiUrl = 'https://pixgrab.xyz/api/clicks';
 
    function ready (fn) {
       if (typeof fn !== 'function') {
