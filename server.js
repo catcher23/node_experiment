@@ -3,6 +3,7 @@
 
 var express = require('express'),
     routes = require('./app/routes/index.js'),
+    newrelic = require('newrelic'),
     mongo = require('mongodb').MongoClient;
 
 var app = express();
