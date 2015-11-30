@@ -8,7 +8,7 @@ var express = require('express'),
 var app = express();
 
 mongo.connect('mongodb://user:password@ds059654.mongolab.com:59654/pixgrab', function (err, db) {
-debugger;
+
     if (err) {
         throw new Error('Database failed to connect!');
     } else {
