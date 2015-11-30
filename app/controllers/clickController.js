@@ -5,7 +5,7 @@
    var addButton = document.querySelector('.btn-add');
    var deleteButton = document.querySelector('.btn-delete');
    var clickNbr = document.querySelector('#click-nbr');
-   var apiUrl = 'https://safe-cliffs-9033.herokuapp.com/api/clicks';
+   var apiUrl = 'https://www.pixgrab.xyz/api/clicks';
 
    function ready (fn) {
       if (typeof fn !== 'function') {
