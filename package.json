@@ -2,7 +2,7 @@
   "name": "pixgrab",
   "version": "1.0.0",
   "description": "Live streaming pics and tweets",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +18,10 @@
   "homepage": "https://github.com/catcher23/pixgrab#readme",
   "dependencies": {
     "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.4",
     "mongodb": "^2.0.49",
+    "mongoose": "^4.2.8",
     "newrelic": "^1.24.0"
   }
 }

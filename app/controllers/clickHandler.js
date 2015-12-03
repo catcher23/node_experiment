@@ -42,7 +42,6 @@ function clickHandler (db) {
           { $inc: { 'clicks': 1 } },
           function (err, result) {
               if (err) { throw err; }
-              console.log('addclick');
               res.json(result);
           }
       );

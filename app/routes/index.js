@@ -1,7 +1,7 @@
 /*jslint node: true */
 'use strict';
 
-var ClickHandler = require(process.cwd() + '/app/controllers/clickHandler.server.js');
+var ClickHandler = require(process.cwd() + '/app/controllers/clickHandler.js');
 
 module.exports = function (app, db) {
 
